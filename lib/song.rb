@@ -63,10 +63,10 @@ def self.alphabetical
 
 
 
-def  self.new_from_filename(songMp3)
+def  self.new_from_filename(name)
   song = self.new 
-    song.songMp3 = (songMp3.split(" - ")[1].chomp(".mp3"))
-    song.artist_name = (songMp3.split(" - ")[0])
+    song.name = (name.split(" - ")[1].chomp(".mp3"))
+    song.artist_name = (name.split(" - ")[0])
     song
     
     
