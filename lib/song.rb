@@ -69,10 +69,12 @@ def  self.new_from_filename(name)
     song.artist_name = (name.split(" - ")[0])
     song
     
-    
-
 end
 
+
+def self.create_from_filename
+  
+end  
 
 
 
